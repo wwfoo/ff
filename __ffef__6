@@ -27,7 +27,7 @@ video {
 <body>
 
 <video controls autoplay playsinline>
-    <source src="__ffef__6.mov" type="video/quicktime">
+    <source src="__ffef__6.mp4" type="video/quicktime">
     Your browser does not support video playback.
 </video>
 
