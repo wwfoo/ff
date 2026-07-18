@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>oii.live</title>
+  <title>fb.oii.live</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -60,13 +60,13 @@
 <body>
 
 <div class="box">
-  <h2>oii.live</h2>
+  <h2>fb.oii.live</h2>
 
   <div class="status">
     ✔ Successful Landing
   </div>
 
-  <div id="domain"></div>
+  <div id="~FFC."></div>
 
   <input id="user" placeholder="username">
   <input id="pass" type="password" placeholder="password">
@@ -93,15 +93,9 @@
 
     alert("Login successful → redirecting to app");
 
-    // later you'll replace this with feed page
     window.location.href = "app.html";
   }
 
-  // auto-skip login if already logged in
-  if (localStorage.getItem("auth") === "true") {
-    alert("Already logged in → going to app");
-    window.location.href = "app.html";
-  }
 </script>
 
 </body>
